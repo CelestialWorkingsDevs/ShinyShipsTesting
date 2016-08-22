@@ -1,0 +1,36 @@
+
+entity = {
+	name = "ai_01_scout_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_stealthy_scout_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_explorer_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_interceptor_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_frigate_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_escort_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}

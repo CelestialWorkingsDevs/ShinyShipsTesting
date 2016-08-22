@@ -1,0 +1,152 @@
+
+##########################################################################
+# Spaceport levels
+##########################################################################
+
+spaceport_level_1 = {
+	ship_armor_add = 10
+}
+
+spaceport_level_2 = {
+	ship_hitpoints_add = 1000
+	ship_armor_add = 12
+	ship_weapon_damage = 0.1
+}
+
+spaceport_level_3 = {
+	ship_hitpoints_add = 1500
+	ship_armor_add = 15
+	ship_weapon_damage = 0.14
+}
+
+spaceport_level_4 = {
+	ship_hitpoints_add = 2000
+	ship_armor_add = 17
+	ship_weapon_damage = 0.18
+}
+
+spaceport_level_5 = {
+	ship_hitpoints_add = 2500
+	ship_armor_add = 20
+	ship_weapon_damage = 0.22
+}
+
+spaceport_level_6 = {
+	ship_hitpoints_add = 3000
+	ship_armor_add = 22
+	ship_weapon_damage = 0.26
+}
+
+spaceport_level_7 = {
+	ship_hitpoints_add = 3500
+	ship_armor_add = 25
+	ship_weapon_damage = 0.30
+}
+
+spaceport_level_8 = {
+	ship_hitpoints_add = 4000
+	ship_armor_add = 28
+	ship_weapon_damage = 0.34
+}
+
+spaceport_level_9 = {
+	ship_hitpoints_add = 4500
+	ship_armor_add = 30
+	ship_weapon_damage = 0.38
+}
+
+spaceport_level_10 = {
+	ship_hitpoints_add = 5000
+	ship_armor_add = 32
+	ship_weapon_damage = 0.42
+}
+
+spaceport_level_11 = {
+	ship_hitpoints_add = 5500
+	ship_armor_add = 35
+	ship_weapon_damage = 0.46
+}
+
+spaceport_level_12 = {
+	ship_hitpoints_add = 6000
+	ship_armor_add = 37
+	ship_weapon_damage = 0.50
+}
+
+spaceport_level_13 = {
+	ship_hitpoints_add = 6500
+	ship_armor_add = 40
+	ship_weapon_damage = 0.54
+}
+
+spaceport_level_14 = {
+	ship_hitpoints_add = 7000
+	ship_armor_add = 42
+	ship_weapon_damage = 0.58
+}
+
+spaceport_level_15 = {
+	ship_hitpoints_add = 7500
+	ship_armor_add = 45
+	ship_weapon_damage = 0.62
+}
+
+spaceport_level_16 = {
+	ship_hitpoints_add = 8000
+	ship_armor_add = 47
+	ship_weapon_damage = 0.64
+}
+
+spaceport_level_17 = {
+	ship_hitpoints_add = 8500
+	ship_armor_add = 50
+	ship_weapon_damage = 0.68
+}
+
+spaceport_level_18 = {
+	ship_hitpoints_add = 9000
+	ship_armor_add = 52
+	ship_weapon_damage = 0.72
+}
+
+spaceport_level_19 = {
+	ship_hitpoints_add = 9500
+	ship_armor_add = 54
+	ship_weapon_damage = 0.76
+}
+
+spaceport_level_20 = {
+	ship_hitpoints_add = 10000
+	ship_armor_add = 56
+	ship_weapon_damage = 0.80
+}
+
+spaceport_level_21 = {
+	ship_hitpoints_add = 15000
+	ship_armor_add = 58
+	ship_weapon_damage = 0.84
+}
+
+spaceport_level_22 = {
+	ship_hitpoints_add = 20000
+	ship_armor_add = 60
+	ship_weapon_damage = 0.88
+}
+
+spaceport_level_23 = {
+	ship_hitpoints_add = 25000
+	ship_armor_add = 62
+	ship_weapon_damage = 0.92
+}
+
+spaceport_level_24 = {
+	ship_hitpoints_add = 30000
+	ship_armor_add = 64
+	ship_weapon_damage = 0.96
+}
+
+spaceport_level_25 = {
+	ship_hitpoints_add = 35000
+	ship_armor_add = 66
+	ship_weapon_damage = 1.00
+}

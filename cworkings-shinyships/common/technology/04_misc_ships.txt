@@ -1,0 +1,33 @@
+#################################################################################
+
+## Written By the mod lead ( I change my name sometimes )
+
+## -----> Please credit us on anything you take from our work. Thanks! <------
+
+#################################################################################
+
+## Tech Starts here.....
+
+#################################
+#### Upgraded Transport Ship ####
+#################################
+
+tech_upgraded_transport_ship = {
+	area = engineering
+	cost = 2250
+	tier = 4
+	category = { rocketry }
+	weight = 40
+	prerequisites = { "tech_spaceport_4" "tech_ship_armor_3" "tech_thrusters_2" "tech_combat_computers_2" "tech_shields_2" "tech_sensors_3" }
+	icon = "GFX_tech_propaganda_beacon_1"	
+	
+	
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 1.25
+
+		}
+	}
+}
+

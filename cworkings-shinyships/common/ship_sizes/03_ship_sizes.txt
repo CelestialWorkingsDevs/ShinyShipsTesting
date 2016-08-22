@@ -1,0 +1,228 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections 
+
+###################################################################################
+
+## Written by Haddix and Mod team for "Celestial Workings"
+
+### Please credit any work you take from use. Thanks!
+
+###################################################################################
+
+#### Set 3 code for the new ships - End range and Capital Class ships
+
+#########  @Connectors here....
+
+@civilian_ships_combat_speed = 0.5
+@corvette_combat_speed = 1.5
+@corvette_combat_rotation = 0.08
+@corvette_collision_radius = 2.0
+
+@destroyer_combat_speed = 1.0
+@destroyer_combat_rotation = 0.05
+@destroyer_collision_radius = 3
+
+@cruiser_combat_speed = 0.7
+@cruiser_combat_rotation = 0.025
+@cruiser_collision_radius = 4
+
+@battleship_combat_speed = 0.35
+@battleship_combat_rotation = 0.02
+@battleship_collision_radius = 5
+
+@build_block_radius_none = 0
+@build_block_radius_tiny = 10
+@build_block_radius_small = 70
+@build_block_radius_medium = 90
+@build_block_radius_large = 110
+
+####################################################
+#####  Then the real "meat" of the file starts
+### New ship code...Begins NOW!
+
+guardian = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.2
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	required_spaceport_level = 24
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_24" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
+dreadnaught = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.2
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	required_spaceport_level = 18
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_18" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
+flagship = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.2
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	required_spaceport_level = 20
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_20" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
+titan = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.2
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	required_spaceport_level = 23
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_23" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
+collossal_titan = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.2
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	required_spaceport_level = 24
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_24" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
+leviathan = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.2
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	required_spaceport_level = 25
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_25" }
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
+## Yay, end of the code.

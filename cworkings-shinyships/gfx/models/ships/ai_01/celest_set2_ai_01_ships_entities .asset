@@ -1,0 +1,42 @@
+
+entity = {
+	name = "ai_01_light_cruiser_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_heavy_cruiser_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_battlecruiser_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_warship_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_carrier_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_super_carrier_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_mother_ship_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}

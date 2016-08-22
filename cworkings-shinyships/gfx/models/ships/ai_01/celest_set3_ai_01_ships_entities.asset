@@ -1,0 +1,36 @@
+
+entity = {
+	name = "ai_01_guardian_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_dreadnaught_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_flagship_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_titan_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_collossal_titan_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
+
+entity = {
+	name = "ai_01_leviathan_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}

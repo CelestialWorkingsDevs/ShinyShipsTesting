@@ -1,0 +1,17 @@
+ship_section_template = {
+	key = "UPGRADED_TRANSPORT_SECTION"
+	ship_size = upgraded_transport_ship
+	fits_on_slot = mid
+	entity = "transport_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+		component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	small_utility_slots = 6
+	medium_utility_slots = 3
+}
